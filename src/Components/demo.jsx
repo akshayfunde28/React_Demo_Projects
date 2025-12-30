@@ -1,5 +1,5 @@
 const GitDemo = () => {
-    <p> this is the demp conflict data </p>
+    <p> this is MASTER branch conflict data </p>
 }
 
 export default GitDemo;
