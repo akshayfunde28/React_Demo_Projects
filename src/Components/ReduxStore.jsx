@@ -1,4 +1,8 @@
+// this is the demo of command to check the pull request of git hub 
+
+import { useState } from 'react';
 import { configureStore, createSlice } from '@reduxjs/toolkit'
+
 
 // slice creation 
 const CounterSlice = createSlice({
@@ -19,6 +23,9 @@ const CounterSlice = createSlice({
         }
     }
 })
+const demo = () => {
+    const [counter, counterstate] = useState(0);
+}
 
 // store creation 
 const CounterStore = configureStore({
